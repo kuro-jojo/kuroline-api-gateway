@@ -1,0 +1,35 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: kuroline-api-gateway
+#  cloud:
+#    gateway:
+#      default-filters:
+#        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+#      globalcors:
+#        corsConfigurations:
+#          '[/**]':
+#            allowedOrigins: "http://localhost:4200"
+#            allowedHeaders: "*"
+#            allowedMethods:
+#              - GET
+#              - POST
+#              - DELETE
+#              - PUT
+#              - PATCH
+#              - OPTIONS
+#      routes:
+#        - id: users-ms
+#          predicates:
+#            - Path=/api/v1/users/**
+#          uri: lb://KUROLINE-USERS-MS
+##        - id: chat-ms
+##          predicates:
+##            - Path=/api/v1/chat/**
+##          uri: lb://KUROLINE-CHAT-MS
+#        - id: chat-ms-ws
+#          predicates:
+#            - Path=/ws/v1/chat/**
+#          uri: lb:ws://KUROLINE-CHAT-MS
