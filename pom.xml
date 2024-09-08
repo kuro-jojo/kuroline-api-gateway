@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.kuro</groupId>
 	<artifactId>kuroline-api-gateway</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 	<name>Kuroline Api Gateway</name>
 	<description>The api gateway for kuroline chat app</description>
 	<url/>
@@ -67,9 +67,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+				<!-- <configuration>
 					<outputDirectory>/home/jonathan/Personal/java</outputDirectory>
-				</configuration>
+				</configuration> -->
 			</plugin>
 		</plugins>
 	</build>
